@@ -2,8 +2,10 @@ import React from "react";
 import { FlipWords } from "../FlipWords";
 import { motion } from "motion/react";
 import { delay } from "motion";
+import { useNavigate } from "react-router";
 
 const Hometext = () => {
+  const navigate=useNavigate()
     const variants= {
         hidden:{x:-50, opacity: 0},
         visible:{x:0,opacity: 1}
@@ -29,9 +31,16 @@ const Hometext = () => {
           <p className="text-2xl text-gray-300">Web Solutions</p>
         </motion.div>
 
-        <button className="mt-8 px-6 py-3 rounded-lg bg-blue-500 hover:bg-blue-600 text-white font-medium transition-all duration-300 shadow-lg hover:scale-105">
-          View My Work 🚀
-        </button>
+       <button
+  onClick={() => {
+    const section = document.querySelector("#projects");
+    section?.scrollIntoView({ behavior: "smooth" });
+  }}
+  className="mt-8 px-6 py-3 rounded-lg bg-blue-500 hover:bg-blue-600 text-white font-medium transition-all duration-300 shadow-lg hover:scale-105"
+>
+  View My Work 🚀
+</button>
+
       </motion.div>
 
       {/* ✅ Mobile View */}

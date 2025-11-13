@@ -30,7 +30,7 @@ const Home = () => {
   };
 
   return (
-    <section
+    <section id="home"
       className="relative w-full min-h-screen flex flex-col md:flex-row items-center justify-between px-8 md:px-20 bg-gradient-to-b from-black via-gray-900 to-black text-gray-200 overflow-hidden"
       onMouseMove={handleMouseMove}
     >
