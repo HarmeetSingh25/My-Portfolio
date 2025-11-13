@@ -6,14 +6,14 @@ import Shopping from "../../assests/Shoping.png";
 
 const projects = [
   {
-    title: "Movie Explorer App",
+    title: "Shopping App",
     thumbnail: Shopping,
     description: "Browse movies, search titles & filter results in this sleek React application.",
     longDescription:
       "This project allows users to explore movies with a clean and responsive UI built in React. It features search functionality, filter options, and a focus on performance and usability. Deployed via Vercel.",
     tech: ["React", "Tailwind", "API"],
     demo: "https://practice-project-2-with-react.vercel.app/",
-    github: "https://github.com/harmeetsingh6p/practice-project-2-with-react"
+    github: "https://github.com/HarmeetSingh25/Practice-project-2-with-React"
   },
   {
     title: "Rental Car Marketplace",
@@ -23,7 +23,7 @@ const projects = [
       "Users can browse available cars, view details, and start the rental process in this modern car-rental UI. Built with React, Tailwind CSS for the UI, and deployed on Vercel.",
     tech: ["React", "Tailwind", "JavaScript"],
     demo: "https://rental-car-project-5oi2.vercel.app/",
-    github: "https://github.com/harmeetsingh6p/rental-car-project"
+    github: "https://github.com/HarmeetSingh25/rental_car_project"
   },
   {
     title: "Akadia – Landing Page",
