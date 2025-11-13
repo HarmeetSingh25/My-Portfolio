@@ -36,7 +36,7 @@ const About = () => {
       onMouseMove={handleMouseMove}
       className="px-6 md:px-16 py-16 bg-[#0b0b16] text-white"
     >
-      <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
+      <h2 className="text-4xl font-bold text-center mb-12">About Me</h2>
 
       {/* GRID */}
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem]">
